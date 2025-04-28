@@ -84,13 +84,13 @@
     "redFlags": [
         {
             "timestampSeconds": 70,
-            "utternace": "freezing",
+            "utterance": "freezing",
             "context": "had more freezing this winter",
             "riskScore": 0.4
         },
         {
             "timestampSeconds": 95,
-            "utternace": "real crazy",
+            "utterance": "real crazy",
             "context": "but he really is real crazy about gardening.",
             "riskScore": 0.9
         }

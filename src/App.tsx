@@ -1,4 +1,3 @@
-import "./App.css";
 import { ConversationViewer } from "./components/ConversationViewer";
 
 function App() {

@@ -1,7 +1,7 @@
 // Quick hacky script to parse an otter transcription to a json format I can use
 import fs from "fs"
 
-const file = fs.readFileSync("../data/transcription.txt", "utf-8")
+const file = fs.readFileSync(".src/data/transcription.txt", "utf-8")
 
 const lines = file.split("\n")
 
@@ -15,7 +15,7 @@ let speaker: null | string = null;
 let timestamp: null | number = null;
 
 
-lines.map((line, i) => {
+lines.map((line: string, i: number) => {
     if(i % 3 === 0) {
         const speakerAndTimestamp = line.split(/\s+/);
         speaker = speakerAndTimestamp[0]
