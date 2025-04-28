@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  background-color: var(--color-gray-100);
+}
+
+.red-flag-inline {
+  color: red;
+  background-color: white;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: -0.1rem;
+  margin-right: -0.1rem;
+  border-radius: 9999px;
+  font-weight: bold;
+}
+
+.red-flag-context {
+  color: red;
+  font-weight: bold;
+}
